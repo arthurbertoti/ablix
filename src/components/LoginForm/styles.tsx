@@ -5,14 +5,13 @@ import { OutlinedInput } from '@mui/material'
 // background-image: url(${background});
 
 export const Container = styled.div`
-   
   display: flex;
   flex-direction: column;
   padding: 0 20px;
   width: 470px;
   height: 390px;
   margin: 0 auto;
-  background-color: #1E1E1E;
+  background-color: rgba(0, 0, 0, 0.8);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border: 1px solid;
   box-shadow: 0px 4px 21px -4px rgba(0, 0, 0, 0.4);
