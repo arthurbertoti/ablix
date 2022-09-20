@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 import FormControl from '@mui/material/FormControl';
 import { OutlinedInput } from '@mui/material'
-
-// background-image: url(${background});
+import LockOutlined from '@mui/icons-material/LockOutlined';
 
 export const Container = styled.div`
   display: flex;
@@ -23,9 +22,15 @@ export const Titulo = styled.h2`
   margin-bottom: 20px;
   margin-top: 30px;
 `;
-
-export const Input = styled(OutlinedInput)`
-  color: white;
+export const InputContainer = styled.div`
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border-color: #ffffff;
+`;
+export const Input = styled.input`
+  color: black;
   box-sizing: border-box;
   margin: 12px 0;
   width: 400px;
@@ -36,9 +41,9 @@ export const Input = styled(OutlinedInput)`
   border-radius: 10px;
 `
 
-export const Button = styled(FormControl)`
+export const Button = styled.button`
   color: white;
-  margin: 0 auto;  
+  margin: auto;
   background-color: #4C1691;
   width: 397px;
   height: 58px;
@@ -46,5 +51,7 @@ export const Button = styled(FormControl)`
   border-radius: 10px;
   text-align: center;
   justify-content: center;
-  
+  && :hover{
+    background-color: #6C1691;
+  }  
 `

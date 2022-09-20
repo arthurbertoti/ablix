@@ -7,6 +7,5 @@ export default function Login() {
     <LoginPage>
       <LoginForm />
     </LoginPage>
-
   )
 };

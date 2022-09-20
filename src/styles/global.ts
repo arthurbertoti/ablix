@@ -5,6 +5,7 @@ import {createGlobalStyle} from "styled-components";
         --text: white;
     }
     body{
+        background-color: #101010;
         margin: 0;
         padding: 0;
         outline:0;

@@ -1,38 +1,15 @@
-
-// import styled from 'styled-components';
-// import Logo from '../../assets/logo.svg';
-
-// export const SearchButton = styled.a`
-//   text-align: center;
-//   border-radius: 3px;
-//   padding: 5px 20px;
-//   margin: 0 10px;
-//   font-weight: 600;
-//   border: 2px solid white;
-// `;
-
-// export const StyledCabecalho = styled.nav`
-//   display: flex;
-//   justify-content: space-between;
-//   padding: 0 15vw;
-//   height: 10vh;
-//   align-items: center;
-// `;
-
-// export const TechLogo = styled.img`
-//   width: 160px;
-//   height: 30px;
-//   content:url(Logo);
-// `;
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const NavbarContainer = styled.nav`
+  position: fixed;
+  background-color: #101010;
+  top: 0;
   width: 100%;
   height: auto;
-  background-color: #4b4b4b;
   display: flex;
   flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
 `;
 
 export const LeftContainer = styled.div`
@@ -62,7 +39,6 @@ export const NavbarLinkContainer = styled.div`
 export const NavbarLink = styled(Link)`
   color: white;
   font-size: x-large;
-  font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   margin: 10px;
 `;
@@ -70,7 +46,6 @@ export const NavbarLink = styled(Link)`
 export const NavbarLinkExtended = styled(Link)`
   color: white;
   font-size: x-large;
-  font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   margin: 10px;
 `;

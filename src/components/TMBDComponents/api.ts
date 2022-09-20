@@ -1,0 +1,14 @@
+export const API_KEY = 'api_key=8ba7c5aba8ccc302aae433cad36cbf1f';
+export const LANGUAGE = '&language=pt-BR';
+export const API_IMG = 'https://image.tmdb.org/t/p/w200';
+export const API_BASE_URL = 'https://api.themoviedb.org/3/';
+export const API_MOVIE_POPULAR_URL = 'movie/popular?'
+export const API_MOVIE_TOP_RATED_URL = "movie/top_rated?";
+export const API_MOVIE_NOW_PLAYING_URL = "movie/now_playing?";
+export const API_MOVIE_TRENDING_WEEK_URL = "trending/movie/week?";
+export const API_MOVIE_TRENDING_DAY_URL = "trending/movie/day?";
+export const API_SERIE_POPULAR_URL = 'tv/popular?'
+export const API_SERIE_TOP_RATED_URL = "tv/top_rated?";
+export const API_SERIE_NOW_PLAYING_URL = "tv/on_the_air?";
+export const API_SERIE_TRENDING_WEEK_URL = "trending/tv/week?";
+export const API_SERIE_TRENDING_DAY_URL = "trending/tv/day?";

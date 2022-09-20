@@ -10,6 +10,3 @@ export const LoginPage = styled.div`
     padding: 0;
 
 `;
-
-export const NavBody = styled.nav`
-`;

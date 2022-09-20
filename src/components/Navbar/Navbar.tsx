@@ -1,20 +1,3 @@
-// import { TechLogo, SearchButton, StyledCabecalho } from './styles';
-// export default function Navbar() {
-//     return (
-//         <StyledCabecalho>
-//             <TechLogo alt="Logo do Ablix" />
-//             <div>
-//                 <SearchButton href="https://google.com">
-//                     Ajuda
-//                 </SearchButton>
-//                 <SearchButton href="https://google.com">
-//                     Sair
-//                 </SearchButton>
-//             </div>
-//         </StyledCabecalho>
-//     )
-// }
-import React, { useState } from "react";
 import {
     NavbarContainer,
     LeftContainer,
@@ -25,8 +8,7 @@ import {
 } from "./styles";
 import LogoImg from "../../assets/logo.svg";
 
-function Navbar() {
-
+export default function Navbar() {
     return (
         <NavbarContainer>
             <NavbarInnerContainer>
@@ -45,5 +27,3 @@ function Navbar() {
         </NavbarContainer>
     );
 }
-
-export default Navbar;
