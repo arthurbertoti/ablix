@@ -4,7 +4,7 @@ import { MovieConteiner, PosterConteiner } from './styles';
 
 const MovieBox = ({movies}:IMovie) => {
     return (
-        <MovieConteiner key={movies.id}>
+        <MovieConteiner id={movies.first_air_date && `series`} key={movies.id}>
             <PosterConteiner>
             <img src={`${API_IMG}${ movies && movies.poster_path}`} alt={`${movies && movies.title || movies.name} Poster`}/>
             </PosterConteiner>

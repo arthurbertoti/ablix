@@ -1,17 +1,21 @@
-import { createContext, useState } from "react";
+import React from "react";
 
-interface NameContextInterface {
-    name: string;
-  }
+interface FCProps {
+  children: React.ReactNode;
+}
+// export type UserContextType = {
+//   user: string | null;
+//   setUser: any;
+// }
 
-export const UserContext = createContext<NameContextInterface | null>(null);
-UserContext.displayName = 'User';
+// export const UserContext = React.createContext<UserContextType>({ user: null, setUser: () => null });
+// UserContext.displayName = 'UserContext';
 
-// export const UsuarioProvider = () => {
-//     const [name, setName] = useState('');
-//     return (
-//         <UserContext.Provider value={{ name, setName}}>
-            
-//         </UserContext.Provider>
-//     )
+// const UserProvider: React.FC<FCProps> = ({ children }) => {
+//   const [user, setUser] = React.useState<string | null>(null);
+//   return (
+//     <UserContext.Provider value= {{ user, setUser }} >
+//       { children }
+//     </UserContext.Provider>
+//   )
 // }

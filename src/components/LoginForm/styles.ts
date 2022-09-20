@@ -1,7 +1,4 @@
 import styled from 'styled-components';
-import FormControl from '@mui/material/FormControl';
-import { OutlinedInput } from '@mui/material'
-import LockOutlined from '@mui/icons-material/LockOutlined';
 
 export const Container = styled.div`
   display: flex;

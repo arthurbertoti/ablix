@@ -43,7 +43,7 @@ export default function LoginForm() {
         <Input
           placeholder="Senha"
           id="password"
-          type={values.showPassword ? 'text' : 'password'}
+          type={'password'}
           value={values.password}
           onChange={handleChange('password')}
         />

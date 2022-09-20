@@ -16,11 +16,10 @@ export default function Navbar() {
                 <LeftContainer>
                     <NavbarLinkContainer>
                         <NavbarLink to="/home"> Início</NavbarLink>
-                        <NavbarLink to="/home#series"> Séries</NavbarLink>
-                        <NavbarLink to="/home#filmes"> filmes</NavbarLink>
-                        <NavbarLink to="/home/search"> Pesquisar</NavbarLink>
-                        <NavbarLink to="/home"> Notificações</NavbarLink>
-                        <NavbarLink to="/home#perfil"> Perfil</NavbarLink>
+                        <NavbarLink to="#series"> Séries</NavbarLink>
+                        <NavbarLink to="#filmes"> filmes</NavbarLink>
+                        <NavbarLink to="/search"> Pesquisar</NavbarLink>
+                        <NavbarLink to="#perfil"> Perfil</NavbarLink>
                     </NavbarLinkContainer>
                 </LeftContainer>
             </NavbarInnerContainer>
